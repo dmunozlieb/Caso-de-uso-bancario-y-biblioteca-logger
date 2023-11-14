@@ -1,0 +1,17 @@
+<configuracion>
+	<Appenders>
+		<Consola nombre="out">
+			<Layout pattern="%d [%p] %n - %m"/>
+		</Consola>
+		<Fichero nombre="file" nombreFichero="logs/applog.txt" ficheroRotacion="applog-backup.txt" maxSize="5 kb">
+			<Layout pattern="%d [%p] %n - %m"/>
+		</Fichero>
+	</Appenders>
+	
+	<Loggers>
+		<Logger nivel="info">
+			<Referencia ref="out"/>
+			<Referencia ref="file"/>
+		</Logger>
+	</Loggers>
+</configuracion>

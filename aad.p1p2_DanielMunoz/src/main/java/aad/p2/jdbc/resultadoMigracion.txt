@@ -1,0 +1,10 @@
+Esquema Original 'pract2' - Tabla 'Clientes': 50
+Esquema Original 'pract2' - Tabla 'Cuentas': 50
+Esquema Original 'pract2' - Tabla 'Transacciones': 3
+Esquema Destino 'pract2' - Tabla 'Clientes': 50
+Esquema Destino 'pract2' - Tabla 'Cuentas': 50
+Esquema Destino 'pract2' - Tabla 'Transacciones': 3
+Datos migrados 'prac2' -> 'prac2migra':103
+Total 'pract2' - Tabla 'Clientes': 100
+Total 'pract2 'pract2' - Tabla 'Cuentas': 100
+Total 'pract2 'pract2' - Tabla 'Transacciones': 6
